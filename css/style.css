@@ -1,0 +1,270 @@
+/* General Styling */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 0.1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul li{
+    height: 50px;
+}
+
+header nav ul li a {
+    height: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a:hover{
+    background-color: rgb(214, 214, 214);
+    color: #fdba00;
+}
+
+/* Section Styling */
+.jumbotron, .content-section {
+    padding: 4rem 1rem;
+    min-height: 600px; /* Increased height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url(../img/3f6f1755-2217-49a7-91a5-7c6e2ebbbf1c.png);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    position: relative;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.choose_me, .choice{
+    padding: 4rem 1rem;
+    min-height: 600px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.choose_me{
+    background-color: #007c29cc;
+}
+
+.enroll {
+    background-color: #007c29cc;
+    color: #000000;
+    justify-content: center;
+}
+
+
+#experience{
+    background-color: gray;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #fdba00;
+    color: #fff;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #15005f;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #02213abe;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Section Background Colors */
+#about {
+    background-color: rgb(255, 255, 255);
+}
+
+#courses {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Contact Us Section Styling */
+#contact {
+    background-color: #ffffff;
+    padding: 4rem 1rem;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.ycont{
+    background-color: #fdba00;
+    color: white;
+    padding: 5%;
+    width: 50%;
+    border-radius: 10%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+form{
+    background-color: #ffffff;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: #fdba00;
+}
+
+#welcome{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #535353ce;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgb(0, 0, 0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menubutton{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .hideonmobile{
+        display: none;
+    }
+    .menubutton{
+    display: block;
+    }
+}
+@media  (max-width:400px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+.btn{
+    background-color: #ffffffdc;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .btn:hover, .btn:active {
+    background-color: #0e0729;
+    color: white;
+  }
+
+  .reg{
+      background-color: #fdba00;
+      color: white;
+      padding: 5%;
+      width: 50%;
+      border-radius: 10%;
+      font-weight: bold;
+  }
+
+  blockquote{
+      background-color: #ffffff;
+      border-radius: 10%;
+      width: 25%;
+      padding: 5%;
+      margin-bottom: 0%;
+      border-bottom-left-radius: 0%;
+      border-bottom-right-radius: 0%;
+  }
+  cite{
+      background-color: #ffffff;
+      font-weight: bold;
+      margin-top: 0%;
+      padding: 1%;
+  }
+  
+  input{
+    margin: 5px;
+  }
+
+  fieldset{
+      padding-top: 1em;
+      padding-bottom: 1em;
+      padding-left: 5em;
+      padding-right: 5em;
+      border: 5px groove;
+      background-color: rgb(236, 236, 236);
+  }
