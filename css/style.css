@@ -16,7 +16,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 9999;
-    height: 100px;
+    height: 80px;
 }
 
 header nav ul {
@@ -235,15 +235,16 @@ h2{
       width: 75%;
       border-radius: 10%;
       font-weight: bold;
-      border: 10px double white;
+      border: 15px double white;
   }
 
   blockquote{
       background-color: #000000;
       color: white;
       border-radius: 10%;
-      padding: 5%;
+      padding: 2%;
       margin-bottom: 0%;
+      width: auto;
   }
   cite{
       background-color: #000000;
@@ -275,9 +276,11 @@ h2{
 
   img{
       border-radius: 20%;
+      width: auto;
   }
 
   .knp{
       border-radius: 0%;
+      width: 200px;
   }
   
